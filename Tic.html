@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+            Tic-Tac-Toe
+        </title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <h1>Tic-Tac-Toe</h1>
+    </head>
+    <body>
+    <div id="board">
+        <div id="head">
+            Player1's turn
+        </div>
+        <div id="grid" class="grid">
+            <div id="grid__item" onclick="startGame(this,1)"></div>
+            <div id="grid__item" onclick="startGame(this,2)"></div>
+            <div id="grid__item" onclick="startGame(this,4)"></div>
+            <div id="grid__item" onclick="startGame(this,8)"></div>
+            <div id="grid__item" onclick="startGame(this,16)"></div>
+            <div id="grid__item" onclick="startGame(this,32)"></div>
+            <div id="grid__item" onclick="startGame(this,64)"></div>
+            <div id="grid__item" onclick="startGame(this,128)"></div>
+            <div id="grid__item" onclick="startGame(this,256)"></div>
+        </div>
+        <div>
+            <button id="restart" onclick="refreshPage()">Restart</button>
+        </div>
+    </div>
+        <script src="Script.js"></script>
+    </body>
+</html>
